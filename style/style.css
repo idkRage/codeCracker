@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(font.woff2);
+}
+
+body {
+	background-color: #1e1e1e;
+	font-family: Ubuntu;
+	color: white;
+}
+
+.main-container {
+	max-width: 200px;
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+
+.top-container {
+	background-color: #333333;
+	width: 185px;
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+#status {
+	position: relative;
+	top: 30px;
+	font-size: 25px;
+	color: rgba(255, 0, 0, 1);
+}
+
+#att {
+    display: inline-block;	
+}
+
+#attCnt {
+	display: inline-block;	
+	margin-left: 5px;
+}
+
+
+
+.tipka {
+	/* Ja... */
+	margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+	
+    display: inline-block;
+	background-color: #333333;
+	border: none;
+}
+
+.tipka:active {
+	background-color: #325333;
+}
+
+.tipka-wide {
+	margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 20px;
+    padding-left: 42px;
+    padding-right: 43px;
+    display: inline-block;
+	background-color: #333333;
+	border: none;
+}
+
+
+#koda {
+	border: none;
+    height: 30px;
+    width: 185px;
+    background-color: #333333;
+    margin-bottom: 10px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+
+#c {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 99999;
+	pointer-events: none;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
